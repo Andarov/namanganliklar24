@@ -73,6 +73,19 @@ img {
     color: #555;
 }
 
+.search {
+    margin-right: 25px;
+}
+.search-input {
+    font-size: 14px;
+    line-height: 17px;
+    color: #8d8d8d;
+    background-color: #fff;
+    padding: 15px 20px 13px 40px;
+    border: 0;
+    border-radius: 60px;
+}
+
 .lang {
     display: flex;
     padding: 3px;
