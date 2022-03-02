@@ -43,6 +43,7 @@ img {
     background-color: #f6f6f6;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .site-header-container {
@@ -106,6 +107,7 @@ img {
 .lang-link-active {
     background-color: #fff;
 }
+
 .main-link {
     display: inline-block;
     font-weight: 500;
@@ -119,13 +121,17 @@ img {
 
 .site-nav {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
-    justify-content: space-between;
     text-align: center;
     padding: 0;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin: 0;
+}
+
+.site-nav-list:not(:last-child) {
+    margin-right: 34px;
 }
 
 .site-nav-item {
@@ -134,12 +140,18 @@ img {
     line-height: 21px;
     color: #7f7f7f;
     text-decoration: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .main-hr {
     border: 1px solid #d1d1d1;
     margin: 0;
     margin-bottom: 40px;
+}
+
+.market-link {
+    display: flex;
 }
 
 .market-img {
