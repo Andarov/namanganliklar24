@@ -1,0 +1,59 @@
+body {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #4a4b4c;
+    
+}
+/* CONTAINER */
+
+.container {
+    width: 100%;
+    max-width: 1160px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SITE-HEADER */
+
+.site-header {
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.site-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.money {
+    display: flex;
+}
+
+.moneys:not(:last-child) {
+    margin-right: 25px;
+}
+
+.mark {
+    color: #2959ce;
+}
+
+.monet {
+    line-height: 19px;
+    color: #555;
+}
+
+.main-link {
+    font-weight: 500;
+    line-height: 19px;
+    background-color: #7296ec;
+    color: #fff;
+    padding: 13px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
