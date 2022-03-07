@@ -30,6 +30,8 @@ img {
 a {
     display: inline-block;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* CONTAINER */
@@ -57,8 +59,11 @@ a {
     align-items: center;
 }
 
-.site-header-logo {
+.main-logo {
+    padding: 9px 6px;
+    background-color: #fff;
     margin-right: 40px;
+    border-radius: 7px;
 }
 
 .money {
@@ -395,6 +400,12 @@ footer {
     max-width: 1000px;
 }
 
+.main-logo-footer svg{
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
 .site-footer-top {
     display: flex;
     justify-content: space-between;
@@ -404,6 +415,7 @@ footer {
     width: 230px;
     font-size: 12px;
     line-height: 19px;
+    margin: 0;
 }
 
 .site-footer-link {
@@ -458,9 +470,16 @@ footer {
 .footer-list {
     display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-link {
     margin-right: 25px;
+}
+
+.link-logo {
+    width: 25px;
+    height: 25px;
 }
 
