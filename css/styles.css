@@ -456,6 +456,7 @@ footer {
 
 .site-footer-bottom {
     display: flex;
+    align-items: center;
 }
 
 .site-footer-end {
@@ -475,6 +476,10 @@ footer {
 }
 
 .footer-link {
+    display: flex;
+}
+
+.footer-link:not(:last-child) {
     margin-right: 25px;
 }
 
