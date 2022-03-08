@@ -296,7 +296,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url("../img/fon.png");
+    background-image: url("../img/fon.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -593,7 +593,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
     .notification {
-        background: url("../img/fon@2x.png");
+        background-image: url("../img/fon@2x.png");
     }
 
 }
