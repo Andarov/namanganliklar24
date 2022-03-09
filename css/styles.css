@@ -85,6 +85,10 @@ a {
     margin-right: auto;
 }
 
+.moneys-two {
+    font-weight: 500;
+}
+
 .moneys:not(:last-child) {
     margin-right: 25px;
 }
