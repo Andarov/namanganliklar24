@@ -132,6 +132,10 @@ a {
     text-decoration: none;
 }
 
+.lang-link-ru {
+    color: #a6a6a6;
+}
+
 .lang-link-active {
     background-color: #fff;
 }
