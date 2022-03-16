@@ -514,10 +514,6 @@ footer {
     margin-right: 100px;
 }
 
-.site-footer-link ul:last-child {
-    margin-right: 0;
-}
-
 .site-footer-link-items {
     font-size: 16px;
     line-height: 19px;
