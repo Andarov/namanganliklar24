@@ -198,6 +198,10 @@ a {
     padding-bottom: 50px;
 }
 
+.market-list {
+    padding-bottom: 0;
+}
+
 .market-link {
     display: flex;
 }
