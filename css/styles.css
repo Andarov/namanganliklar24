@@ -85,21 +85,19 @@ a {
     margin-right: auto;
 }
 
-.moneys-two {
-    font-weight: 500;
-}
-
 .moneys:not(:last-child) {
     margin-right: 25px;
 }
 
 .mark {
     color: #2959ce;
+    font-weight: 700;
 }
 
 .monet {
     line-height: 19px;
     color: #555;
+    font-weight: 400;
 }
 
 .search {
