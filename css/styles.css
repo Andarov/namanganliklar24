@@ -462,6 +462,10 @@ a {
     border-radius: 15px;
 }
 
+.box-bottom-right-img-list {
+    height: 553px;
+}
+
 footer {
     background-color: #7297ef;
     color: #fff;
