@@ -692,6 +692,8 @@ footer {
 
 /* FORM */
 .form {
+    display: flex;
+    flex-direction: column;
     width: 696px;
     margin-right: 10px;
 }
@@ -732,7 +734,7 @@ footer {
 /* BUTTON */
 .contact-button {
     /* TODO  left*/
-    margin-right: auto;
+    align-self: flex-end;
     padding: 17px 30px;
     background: #7297EF;
     border: 0;
