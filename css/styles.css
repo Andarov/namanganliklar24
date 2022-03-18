@@ -696,24 +696,13 @@ footer {
 
 /* FORM */
 .form {
-    display: flex;
-    flex-direction: column;
     width: 696px;
     margin-right: 10px;
 }
 
-.top-form {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-.name {
-    margin-right: 10px;
-}
-
 .input {
-    width: 343px;
-    background: #FFFFFF;
+    display: block;
+    margin-bottom: 10px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 18px 20px;
@@ -721,17 +710,49 @@ footer {
     font-size: 16px;
     line-height: 19px;
     color: #000000;
-    opacity: 0.5;
+}
+
+.top-form {
+    display: flex;
+}
+
+.form-top {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-top-input {
+    width: 50%;
+}
+
+.form-top-input:not(:last-child) {
+    margin-right: 10px;
 }
 
 .e-mail-input {
-    width: 696px;
-    margin-bottom: 10px;
+    width: 100%;
 }
 
-.text-form-input {
+.button {
+    display: block;
+    align-self: flex-end;
+}
+
+.about {
     width: 696px;
-    height: 180px;
+    min-height: 180px;
+    resize: vertical;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
     margin-bottom: 20px;
 }
 

@@ -75,13 +75,21 @@
                 <div class="form">
                     <div class="top-form">
                         <form class="name" action="https://echo.htmlacademy.ru" method="GET">
-                            <input class="input name-input" type="search" name="search" placeholder="Имя" aria-label="Поиск" required>
-                            <input class="input telephone-input" type="search" name="search" placeholder="Номер телефона" aria-label="Поиск" required>
-                            <input class="input e-mail-input" type="search" name="search" placeholder="Электронная почта" aria-label="Поиск" required>
-                            <input class="input text-form-input" type="search" name="search" placeholder="Текст" aria-label="Поиск" required>
+                            <div class="form-top">
+                                <input class="input form-top-input name-input" type="text" name="name" placeholder="Имя" aria-label="Имя" required>
+                                <input class="input form-top-input telephone-input" type="tel" name="number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+                            </div>
+                            <div>
+                                <input class="input e-mail-input" type="email" name="e-mail" placeholder="Электронная почта" aria-label="Электронная почта" required>
+                            </div>
+                            <div>
+                                <textarea class="about" name="message" placeholder="Текст" aria-label="message" required></textarea>
+                            </div>
+                            <div class="button">
+                                <button class="contact-button" type="submit">Отправить</button>
+                            </div>
                         </form>
                     </div>
-                    <button class="contact-button" type="button">Отправить</button>
                 </div>
                 <!-- CONTACT -->
                 <div class="contact">
