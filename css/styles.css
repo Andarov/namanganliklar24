@@ -202,10 +202,6 @@ a {
     padding-bottom: 50px;
 }
 
-.market-list {
-    padding-bottom: 0;
-}
-
 .market-link {
     display: flex;
 }
@@ -381,7 +377,6 @@ a {
 .box-bottom-left {
     flex-direction: column;
     padding: 0;
-    margin-top: 49px;
 }
 
 .box-bottom-left-heading {
@@ -428,7 +423,6 @@ a {
 .box-bottom-right-full {
     width: 393px;
     flex-direction: column;
-    margin-top: 49px;
     margin-left: 10px;
 }
 
